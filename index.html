@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rebanna Langu – Digital Marketing Specialist. Expert in SEO, Social Media Strategy, Campaign Management, and Performance Analytics." />
+  <title>Rebanna Langu | Digital Marketing Specialist</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== SCROLL PROGRESS ========== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-text">RL</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#tools" class="nav-link">Tools</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="ri-sun-line" id="themeIcon"></i>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content" data-reveal>
+        <p class="hero-eyebrow">Welcome to my portfolio</p>
+        <h1 class="hero-name">Rebanna<br /><span class="hero-name-accent">Langu</span></h1>
+        <div class="hero-title-wrap">
+          <span class="hero-title-static">I am a </span>
+          <span class="hero-typing" id="typingText"></span>
+          <span class="hero-cursor">|</span>
+        </div>
+        <p class="hero-bio">
+          Strategic digital marketing professional driving brand growth through data-led campaigns, compelling content, and performance analytics across Africa and beyond.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <i class="ri-folder-open-line"></i> View Projects
+          </a>
+          <a href="assets/cv/Rebanna_Langu_CV.pdf" target="_blank" class="btn btn-outline" id="viewCvBtn">
+            <i class="ri-file-text-line"></i> View CV
+          </a>
+          <a href="assets/cv/Rebanna_Langu_CV.pdf" download class="btn btn-ghost">
+            <i class="ri-download-2-line"></i> Download CV
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:rebannalangu12@gmail.com" aria-label="Email"><i class="ri-mail-line"></i></a>
+          <a href="tel:+233559201297" aria-label="Phone"><i class="ri-phone-line"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-line"></i></a>
+          <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+        </div>
+      </div>
+      <div class="hero-image-wrap" data-reveal data-delay="200">
+        <div class="hero-image-frame">
+          <img src="assets/profile.jpeg" alt="Rebanna Langu" class="hero-img" loading="eager" />
+          <div class="hero-image-ring"></div>
+          <div class="hero-badge hero-badge-1">
+            <i class="ri-bar-chart-2-line"></i>
+            <span>Analytics Expert</span>
+          </div>
+          <div class="hero-badge hero-badge-2">
+            <i class="ri-global-line"></i>
+            <span>SEO Specialist</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-cue" aria-label="Scroll down">
+      <i class="ri-arrow-down-s-line"></i>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col" data-reveal>
+          <div class="about-image-card">
+            <img src="assets/profile1.jpeg" alt="Rebanna Langu" loading="lazy" />
+            <div class="about-image-overlay">
+              <div class="about-stat">
+                <span class="stat-num">3+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="about-stat">
+                <span class="stat-num">10+</span>
+                <span class="stat-label">Projects Delivered</span>
+              </div>
+              <div class="about-stat">
+                <span class="stat-num">3</span>
+                <span class="stat-label">Major Brands</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content-col" data-reveal data-delay="150">
+          <h3 class="about-subtitle">Digital Marketing Specialist</h3>
+          <p class="about-text">
+            I am a results-driven Digital Marketing Specialist with a deep passion for building brands that matter. I combine creative strategy with performance data to craft campaigns that resonate with audiences and move business metrics.
+          </p>
+          <p class="about-text">
+            My expertise spans social media strategy, SEO, campaign management, and performance analytics. I have had the privilege of working with leading brands including <strong>Alibaba</strong>, <strong>DSTV</strong>, and <strong>M-KOPA</strong>, delivering measurable KPI growth and sustained brand visibility across digital platforms.
+          </p>
+          <p class="about-text">
+            I believe that great digital marketing lives at the intersection of storytelling and data. Every campaign I run is built on clear objectives, audience intelligence, and continuous optimization — ensuring every investment delivers real business outcomes.
+          </p>
+          <div class="about-expertise">
+            <div class="expertise-item"><i class="ri-checkbox-circle-line"></i> Social Media Strategy</div>
+            <div class="expertise-item"><i class="ri-checkbox-circle-line"></i> SEO &amp; Keyword Research</div>
+            <div class="expertise-item"><i class="ri-checkbox-circle-line"></i> Campaign Management</div>
+            <div class="expertise-item"><i class="ri-checkbox-circle-line"></i> Performance Analytics</div>
+            <div class="expertise-item"><i class="ri-checkbox-circle-line"></i> Content Planning</div>
+            <div class="expertise-item"><i class="ri-checkbox-circle-line"></i> Paid Advertising</div>
+          </div>
+          <div class="about-brands">
+            <span class="brands-label">Brands I've worked with:</span>
+            <div class="brands-list">
+              <span class="brand-tag">Alibaba</span>
+              <span class="brand-tag">DSTV</span>
+              <span class="brand-tag">M-KOPA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">Capabilities</span>
+        <h2 class="section-title">Skills &amp; Expertise</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <!-- Technical Skills -->
+        <div class="skills-col" data-reveal>
+          <h3 class="skills-col-title"><i class="ri-code-s-slash-line"></i> Technical Skills</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-skill="90">
+              <div class="skill-info"><span>Social Media Strategy</span><span class="skill-pct">90%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="88">
+              <div class="skill-info"><span>Campaign Management</span><span class="skill-pct">88%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="85">
+              <div class="skill-info"><span>Multi-Platform Execution</span><span class="skill-pct">85%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="82">
+              <div class="skill-info"><span>Google Analytics</span><span class="skill-pct">82%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="85">
+              <div class="skill-info"><span>Meta Business Suite</span><span class="skill-pct">85%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="80">
+              <div class="skill-info"><span>SEO &amp; Keyword Research</span><span class="skill-pct">80%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="87">
+              <div class="skill-info"><span>Performance Analytics</span><span class="skill-pct">87%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="87"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="83">
+              <div class="skill-info"><span>Content Planning</span><span class="skill-pct">83%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="83"></div></div>
+            </div>
+            <div class="skill-bar" data-skill="78">
+              <div class="skill-info"><span>Paid Advertising</span><span class="skill-pct">78%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Professional Skills -->
+        <div class="skills-col" data-reveal data-delay="150">
+          <h3 class="skills-col-title"><i class="ri-user-star-line"></i> Professional Skills</h3>
+          <div class="prof-skills-grid">
+            <div class="prof-skill-card">
+              <i class="ri-discuss-line"></i>
+              <span>Strategic Communication</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-customer-service-2-line"></i>
+              <span>Client Advisory</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-pie-chart-2-line"></i>
+              <span>Data Interpretation</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-lightbulb-flash-line"></i>
+              <span>Problem Solving</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-brain-line"></i>
+              <span>Analytical Thinking</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-group-line"></i>
+              <span>Stakeholder Management</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-team-line"></i>
+              <span>Collaboration</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-focus-3-line"></i>
+              <span>Attention to Detail</span>
+            </div>
+            <div class="prof-skill-card">
+              <i class="ri-timer-flash-line"></i>
+              <span>Time Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">Services</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="ri-search-eye-line"></i></div>
+          <h3 class="service-title">SEO Optimization</h3>
+          <p class="service-desc">End-to-end search engine optimization to improve organic visibility, drive qualified traffic, and grow your digital footprint sustainably.</p>
+          <div class="service-tags"><span>On-Page</span><span>Technical SEO</span><span>Link Building</span></div>
+        </div>
+        <div class="service-card" data-reveal data-delay="80">
+          <div class="service-icon"><i class="ri-key-2-line"></i></div>
+          <h3 class="service-title">Keyword Research</h3>
+          <p class="service-desc">Deep-dive keyword analysis to identify high-intent search terms that attract your ideal audience and outperform competitors.</p>
+          <div class="service-tags"><span>Competitor Gap</span><span>Intent Mapping</span><span>Long-tail</span></div>
+        </div>
+        <div class="service-card" data-reveal data-delay="160">
+          <div class="service-icon"><i class="ri-stethoscope-line"></i></div>
+          <h3 class="service-title">Website Audit</h3>
+          <p class="service-desc">Comprehensive website health reviews identifying technical issues, UX gaps, and conversion barriers holding your site back.</p>
+          <div class="service-tags"><span>Technical</span><span>UX Analysis</span><span>Speed</span></div>
+        </div>
+        <div class="service-card" data-reveal data-delay="240">
+          <div class="service-icon"><i class="ri-rocket-line"></i></div>
+          <h3 class="service-title">Website Optimization</h3>
+          <p class="service-desc">Performance tuning and CRO strategies to boost page speed, engagement, and conversion rates across all device types.</p>
+          <div class="service-tags"><span>CRO</span><span>Speed</span><span>Accessibility</span></div>
+        </div>
+        <div class="service-card" data-reveal data-delay="320">
+          <div class="service-icon"><i class="ri-share-circle-line"></i></div>
+          <h3 class="service-title">Social Media Marketing</h3>
+          <p class="service-desc">Strategic social media presence building — from content planning to community management — across all major platforms.</p>
+          <div class="service-tags"><span>Instagram</span><span>TikTok</span><span>LinkedIn</span></div>
+        </div>
+        <div class="service-card" data-reveal data-delay="400">
+          <div class="service-icon"><i class="ri-line-chart-line"></i></div>
+          <h3 class="service-title">Performance Analytics</h3>
+          <p class="service-desc">Data-driven reporting and insight extraction that translates raw numbers into clear, actionable marketing decisions.</p>
+          <div class="service-tags"><span>GA4</span><span>Meta Insights</span><span>Reporting</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">Case Studies</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="project-filters" data-reveal>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="strategy">Strategy</button>
+        <button class="filter-btn" data-filter="campaign">Campaign</button>
+        <button class="filter-btn" data-filter="content">Content</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-reveal data-category="strategy">
+          <div class="project-img-wrap">
+            <img src="assets/m-kopa.png" alt="M-KOPA Growth Strategy" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://drive.google.com/file/d/1XrYqBqpwMlr4tSzIighGaNQo0p9pZArR/view?usp=drivesdk" target="_blank" rel="noopener" class="project-overlay-btn"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Growth Strategy</span>
+            <h3 class="project-title">M-KOPA Growth Strategy</h3>
+            <p class="project-desc">Comprehensive growth strategy for M-KOPA covering market expansion, digital acquisition channels, and retention campaigns across East and West Africa.</p>
+            <div class="project-tools"><span>Market Research</span><span>SEO</span><span>Analytics</span></div>
+            <div class="project-actions">
+              <a href="https://drive.google.com/file/d/1XrYqBqpwMlr4tSzIighGaNQo0p9pZArR/view?usp=drivesdk" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="ri-external-link-line"></i> View Project</a>
+              <button class="btn btn-sm btn-outline read-more-btn" data-modal="mkopa">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal data-delay="100" data-category="campaign">
+          <div class="project-img-wrap">
+            <img src="assets/dstv.png" alt="DSTV Campaign Plan" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://drive.google.com/file/d/1tOBNAZ2UcLSIgucq3Ja_P_D_WcoU-REq/view?usp=drivesdk" target="_blank" rel="noopener" class="project-overlay-btn"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Campaign Planning</span>
+            <h3 class="project-title">DSTV Campaign Plan</h3>
+            <p class="project-desc">Full-funnel campaign plan for DSTV targeting subscriber retention and new acquisition, with creative direction and media mix strategy.</p>
+            <div class="project-tools"><span>Campaign Planning</span><span>Media Mix</span><span>Creative Brief</span></div>
+            <div class="project-actions">
+              <a href="https://drive.google.com/file/d/1tOBNAZ2UcLSIgucq3Ja_P_D_WcoU-REq/view?usp=drivesdk" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="ri-external-link-line"></i> View Project</a>
+              <button class="btn btn-sm btn-outline read-more-btn" data-modal="dstv">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal data-delay="200" data-category="campaign">
+          <div class="project-img-wrap">
+            <img src="assets/instagram-ad.png" alt="Instagram Ad Campaign" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://docs.google.com/presentation/d/1krhfOwDDxNma8kDTdrbqyu_o038wN1Bs/edit?usp=drivesdk&ouid=107725106807357484121&rtpof=true&sd=true" target="_blank" rel="noopener" class="project-overlay-btn"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Paid Social</span>
+            <h3 class="project-title">Instagram Ad Campaign</h3>
+            <p class="project-desc">Data-driven Instagram advertising campaign from audience segmentation and creative development through to A/B testing and performance analysis.</p>
+            <div class="project-tools"><span>Meta Ads</span><span>A/B Testing</span><span>Creative Design</span></div>
+            <div class="project-actions">
+              <a href="https://docs.google.com/presentation/d/1krhfOwDDxNma8kDTdrbqyu_o038wN1Bs/edit?usp=drivesdk&ouid=107725106807357484121&rtpof=true&sd=true" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="ri-external-link-line"></i> View Project</a>
+              <button class="btn btn-sm btn-outline read-more-btn" data-modal="insta">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal data-delay="100" data-category="strategy">
+          <div class="project-img-wrap">
+            <img src="assets/hotfro.png" alt="Hotfro Digital Marketing Strategy" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://docs.google.com/presentation/d/1YYfL0bUugjeOlh1xz4hw6qJov0n6pZ0I/edit?usp=drivesdk&ouid=107725106807357484121&rtpof=true&sd=true" target="_blank" rel="noopener" class="project-overlay-btn"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Digital Strategy</span>
+            <h3 class="project-title">Hotfro Digital Marketing Strategy</h3>
+            <p class="project-desc">End-to-end digital marketing strategy for Hotfro encompassing brand positioning, social media roadmap, SEO, and content direction.</p>
+            <div class="project-tools"><span>Brand Strategy</span><span>SEO</span><span>Content</span></div>
+            <div class="project-actions">
+              <a href="https://docs.google.com/presentation/d/1YYfL0bUugjeOlh1xz4hw6qJov0n6pZ0I/edit?usp=drivesdk&ouid=107725106807357484121&rtpof=true&sd=true" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="ri-external-link-line"></i> View Project</a>
+              <button class="btn btn-sm btn-outline read-more-btn" data-modal="hotfro">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal data-delay="200" data-category="content">
+          <div class="project-img-wrap">
+            <img src="assets/content-calendar.png" alt="Content Calendar" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://docs.google.com/spreadsheets/d/1SCQEk8X5XrWLwFUUzD2t-PQQ70ZGJ0TF/edit?usp=sharing&ouid=117304869477040927105&rtpof=true&sd=true" target="_blank" rel="noopener" class="project-overlay-btn"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Content Planning</span>
+            <h3 class="project-title">Content Calendar</h3>
+            <p class="project-desc">Strategic content calendar mapping multi-platform publishing schedules, content themes, and campaign milestones over a full quarter.</p>
+            <div class="project-tools"><span>Google Sheets</span><span>Content Strategy</span><span>Scheduling</span></div>
+            <div class="project-actions">
+              <a href="https://docs.google.com/spreadsheets/d/1SCQEk8X5XrWLwFUUzD2t-PQQ70ZGJ0TF/edit?usp=sharing&ouid=117304869477040927105&rtpof=true&sd=true" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="ri-external-link-line"></i> View Project</a>
+              <button class="btn btn-sm btn-outline read-more-btn" data-modal="calendar">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal data-delay="300" data-category="social">
+          <div class="project-img-wrap">
+            <img src="assets/tiktok.jpeg" alt="Social Media Management TikTok" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://drive.google.com/file/d/19u52FwdfnQhuLsFPjXo-dnDJ2MV4HZ3Z/view?usp=drivesdk" target="_blank" rel="noopener" class="project-overlay-btn"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Social Media</span>
+            <h3 class="project-title">Social Media Management (TikTok)</h3>
+            <p class="project-desc">Full TikTok channel management covering content ideation, trend leveraging, posting cadence, community engagement, and growth analytics.</p>
+            <div class="project-tools"><span>TikTok</span><span>Video Strategy</span><span>Analytics</span></div>
+            <div class="project-actions">
+              <a href="https://drive.google.com/file/d/19u52FwdfnQhuLsFPjXo-dnDJ2MV4HZ3Z/view?usp=drivesdk" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="ri-external-link-line"></i> View Project</a>
+              <button class="btn btn-sm btn-outline read-more-btn" data-modal="tiktok">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Graphic Design Projects -->
+      <div class="section-header section-header-inner" data-reveal>
+        <span class="section-tag">Creative Work</span>
+        <h2 class="section-title">Graphic Design Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="designs-grid" id="designsGrid">
+        <div class="design-card" data-reveal>
+          <img src="assets/design-1.jpeg" alt="Design Project 1" loading="lazy" class="design-img" data-lightbox />
+          <div class="design-overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+        <div class="design-card" data-reveal data-delay="100">
+          <img src="assets/design-2.jpeg" alt="Design Project 2" loading="lazy" class="design-img" data-lightbox />
+          <div class="design-overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+        <div class="design-card" data-reveal data-delay="200">
+          <img src="assets/design-3.jpeg" alt="Design Project 3" loading="lazy" class="design-img" data-lightbox />
+          <div class="design-overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATES ========== -->
+  <section class="section certificates" id="certificates">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certificates</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card" data-reveal>
+          <div class="cert-img-wrap">
+            <img src="assets/cert-1.jpeg" alt="Certificate 1" loading="lazy" class="cert-img" data-lightbox />
+            <div class="cert-hover"><i class="ri-zoom-in-line"></i><span>View Certificate</span></div>
+          </div>
+          <div class="cert-body">
+            <i class="ri-award-line cert-icon"></i>
+            <h3 class="cert-title">OFF PAGE SEO</h3>
+            <p class="cert-issuer">SEMrush</p>
+          </div>
+        </div>
+        <div class="cert-card" data-reveal data-delay="120">
+          <div class="cert-img-wrap">
+            <img src="assets/cert-2.jpeg" alt="Certificate 2" loading="lazy" class="cert-img" data-lightbox />
+            <div class="cert-hover"><i class="ri-zoom-in-line"></i><span>View Certificate</span></div>
+          </div>
+          <div class="cert-body">
+            <i class="ri-award-line cert-icon"></i>
+            <h3 class="cert-title">SEO ESSENTIAL</h3>
+            <p class="cert-issuer">SEMrush</p>
+          </div>
+        </div>
+  </section>
+
+  <!-- ========== TOOLS ========== -->
+  <section class="section tools" id="tools">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">My Stack</span>
+        <h2 class="section-title">Tools &amp; Platforms</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card" data-reveal>
+          <div class="tool-icon"><i class="fa-brands fa-google" style="color:#E37400"></i></div>
+          <span class="tool-name">Google Analytics</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="60">
+          <div class="tool-icon"><i class="fa-brands fa-meta" style="color:#0866FF"></i></div>
+          <span class="tool-name">Meta Business Suite</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="120">
+          <div class="tool-icon"><i class="ri-palette-line" style="color:#00C4CC"></i></div>
+          <span class="tool-name">Canva</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="180">
+          <div class="tool-icon"><i class="fa-brands fa-google" style="color:#4285F4"></i></div>
+          <span class="tool-name">Google Ads</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="240">
+          <div class="tool-icon"><i class="ri-search-2-line" style="color:#FF642D"></i></div>
+          <span class="tool-name">SEMrush</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="300">
+          <div class="tool-icon"><i class="ri-bar-chart-grouped-line" style="color:#FF7043"></i></div>
+          <span class="tool-name">Ahrefs</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="360">
+          <div class="tool-icon"><i class="fa-brands fa-wordpress" style="color:#21759B"></i></div>
+          <span class="tool-name">WordPress</span>
+        </div>
+        <div class="tool-card" data-reveal data-delay="420">
+          <div class="tool-icon"><i class="fa-brands fa-mailchimp" style="color:#FFE01B"></i></div>
+          <span class="tool-name">Mailchimp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CV SECTION ========== -->
+  <section class="section cv-section" id="cv">
+    <div class="container">
+      <div class="cv-card" data-reveal>
+        <div class="cv-content">
+          <div class="cv-text">
+            <span class="section-tag">Career Document</span>
+            <h2 class="cv-title">Curriculum Vitae</h2>
+            <p class="cv-desc">Download or preview my full CV to explore my professional experience, education, certifications, and accomplishments in digital marketing.</p>
+          </div>
+          <div class="cv-actions">
+            <button class="btn btn-primary" id="openCvModal">
+              <i class="ri-eye-line"></i> Preview CV
+            </button>
+            <a href="assets/cv/Rebanna_Langu_CV.pdf" download class="btn btn-outline">
+              <i class="ri-download-2-line"></i> Download CV
+            </a>
+          </div>
+        </div>
+        <div class="cv-deco">
+          <i class="ri-file-text-line"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-col" data-reveal>
+          <h3 class="contact-subtitle">Let's work together</h3>
+          <p class="contact-intro">I'm open to new projects, collaborations, and exciting opportunities. Reach out and let's create something impactful.</p>
+          <div class="contact-details">
+            <a href="mailto:rebannalangu12@gmail.com" class="contact-item">
+              <div class="contact-icon"><i class="ri-mail-send-line"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">rebannalangu12@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+233559201297" class="contact-item">
+              <div class="contact-icon"><i class="ri-phone-line"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+233 559 201 297</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-map-pin-line"></i></div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Ghana, West Africa</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="mailto:rebannalangu12@gmail.com" class="social-btn" aria-label="Email"><i class="ri-mail-line"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="ri-linkedin-box-line"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-col" data-reveal data-delay="150">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required />
+                <span class="form-error" id="firstNameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe" required />
+                <span class="form-error" id="lastNameError"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+              <span class="form-error" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="ri-send-plane-line"></i> Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="ri-checkbox-circle-line"></i> Thank you! Your message has been received.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">RL</span>
+          <p class="footer-tagline">Digital Marketing Specialist crafting impactful campaigns and measurable growth.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <a href="mailto:rebannalangu12@gmail.com"><i class="ri-mail-line"></i> rebannalangu12@gmail.com</a>
+          <a href="tel:+233559201297"><i class="ri-phone-line"></i> +233 559 201 297</a>
+          <div class="footer-socials">
+            <a href="mailto:rebannalangu12@gmail.com" aria-label="Email"><i class="ri-mail-line"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-line"></i></a>
+            <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Rebanna Langu. All rights reserved.</p>
+        <p>Digital Marketing Specialist</p>
+      </div>
+    </div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="ri-arrow-up-s-line"></i>
+    </button>
+  </footer>
+
+  <!-- ========== LIGHTBOX MODAL ========== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="ri-close-line"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous"><i class="ri-arrow-left-s-line"></i></button>
+    <div class="lightbox-content">
+      <img src="" alt="Preview" id="lightboxImg" />
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next"><i class="ri-arrow-right-s-line"></i></button>
+  </div>
+
+  <!-- ========== CV MODAL ========== -->
+  <div class="cv-modal" id="cvModal">
+    <div class="cv-modal-inner">
+      <div class="cv-modal-header">
+        <h3>Rebanna Langu — CV</h3>
+        <div class="cv-modal-actions">
+          <a href="assets/cv/Rebanna_Langu_CV.pdf" download class="btn btn-sm btn-primary"><i class="ri-download-2-line"></i> Download</a>
+          <button class="cv-modal-close" id="cvModalClose" aria-label="Close"><i class="ri-close-line"></i></button>
+        </div>
+      </div>
+      <div class="cv-modal-body">
+        <iframe src="assets/cv/Rebanna_Langu_CV.pdf" title="Rebanna Langu CV" id="cvIframe"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== READ MORE MODALS ========== -->
+  <div class="read-more-modal" id="readMoreModal">
+    <div class="read-more-inner">
+      <button class="read-more-close" id="readMoreClose" aria-label="Close"><i class="ri-close-line"></i></button>
+      <div id="readMoreContent"></div>
+    </div>
+  </div>
+
+  <!-- Modal overlay -->
+  <div class="modal-overlay" id="modalOverlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
